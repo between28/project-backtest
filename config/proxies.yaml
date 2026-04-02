@@ -1,0 +1,14 @@
+proxies:
+  - target: QQQM
+    proxy: QQQ
+    enabled: true
+    notes: Extend NASDAQ-100 exposure before QQQM inception.
+  - target: VOO
+    proxy: SPY
+    enabled: true
+    notes: Approximate long-run S&P 500 ETF history before VOO inception.
+  - target: IAU
+    proxy: GLD
+    enabled: true
+    notes: Extend gold ETF history with the older gold trust vehicle.
+

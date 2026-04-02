@@ -1,0 +1,16 @@
+history_provider: auto
+search_provider: auto
+preferred_provider: twelvedata
+fallback_history_provider: yahoo
+start_date: "1999-03-10"
+end_date: null
+default_mode: proxy_extended
+default_monthly_dca: 1000
+default_initial_value: 10000
+base_currency: USD
+benchmark_ticker: SPY
+cache_ttl_hours: 24
+symbol_catalog_ttl_hours: 24
+search_cache_ttl_seconds: 300
+search_result_limit: 12
+default_interval: 1day
